@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Full Name -->
+    <title>Full Name</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+   
+</head>
+ <style>
+    @import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #4246bb;
+	font-family: Montserrat, sans-serif;	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+
+	min-height: 100vh;
+	margin: 0;
+}
+
+h3 {
+	margin: 10px 0;
+}
+
+h6 {
+	margin: 5px 0;
+	text-transform: uppercase;
+}
+
+p {
+	font-size: 14px;
+	line-height: 21px;
+}
+
+.card-container {
+	background-color: #577bc9;
+	border-radius: 5px;
+	box-shadow: 0px 10px 20px -10px rgba(0,0,0,0.75);
+	color: #fff;
+	padding-top: 30px;
+	position: relative;
+	width: 350px;
+	max-width: 100%;
+	text-align: center;
+}
+
+.card-container .pro {
+	color: #5f57c9;
+	background-color: #0bfef6;
+	border-radius: 10px;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 3px 7px;
+	position: absolute;
+	top: 30px;
+	left: 30px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+}
+
+.card-container .round {
+	border: 2px solid #fff;
+	border-radius: 50%;
+	padding: 7px;
+}
+ .btn1{
+	background-color: #89d9f0;
+	border: 1px solid #a7d6ff;
+	border-radius: 3px;
+	color: #7357c9;
+	font-family: Montserrat, sans-serif;
+	font-weight: 500;
+	padding: 10px 25px;
+}
+
+.btn1:hover {
+	background-color: #36d6a9;
+	border: 1px solid #f2e8cf;
+	border-radius: 3px;
+	color: #f2e8cf;
+	font-family: Montserrat, sans-serif;
+	font-weight: 500;
+	padding: 10px 25px;
+}
+
+.btn2 {
+	background-color: #5799c9;
+	color: #f2e8cf;
+}
+
+.btn2:hover {
+	background-color: #f2e8cf;
+	color: #5b57c9;
+}
+
+.skills {
+	background-color: #a0a3e8;
+	text-align: left;
+    color: #222;
+	padding: 15px;
+	margin-top: 30px;
+}
+
+.skills ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.skills ul li {
+	border: 1px solid #2D2747;
+	border-radius: 2px;
+	display: inline-block;
+	font-size: 12px;
+	margin: 0 7px 7px 0;
+	padding: 7px;
+}
+
+footer {
+    background-color: #222;
+    color: #fff;
+    font-size: 14px;
+    bottom: 0;
+    position: fixed;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 999;
+}
+
+footer p {
+    margin: 10px 0;
+}
+
+footer i {
+    color: rgb(255, 200, 0);
+}
+
+footer a {
+    color: #3c97bf;
+    text-decoration: none;
+}
+ </style>
+<body>
+    <div class="card-container">
+
+        <img class="round" src="male.jpg" style="width: 150px;height: auto;" alt="user" />
+        <!-- Full Name -->
+        <h3>Full Name</h3>
+        <!-- Your City -->
+        <h6>Your City</h6>
+        <!-- Designation -->
+        <p>Designation</p>
+        <div class="buttons">
+            <!-- GitHub Profile URL inside href -->
+            <a href="" style="text-decoration:none" class="btn1"> GitHub <i class="fab fa-github"></i></a>
+            <!-- Twitter Profile URL inside href -->
+            <a href="" style="text-decoration:none" class="btn1 btn2"> Twitter <i class="fab fa-twitter"></i></a>
+        </div>
+        <div class="skills">
+            <h6>Why do you like open source?</h6>
+            <!-- Why do you like open source? -->
+            <p>
+                Answer here
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>
